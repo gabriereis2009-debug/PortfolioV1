@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projetos — Gabriel Alves dos Reis</title>
+<meta name="description" content="Projetos acadêmicos de Gabriel Alves dos Reis em C#, HTML/CSS, MySQL e hardware, com detalhes de cada trabalho.">
+<meta name="theme-color" content="#ecebef">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230267ff'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle'%3EGA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="wallpaper" aria-hidden="true"></div>
+<div class="frost" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+<div class="veil" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<header class="topbar">
+  <nav class="nav" aria-label="Navegação principal">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">GA</span>
+      <span class="brand-txt"><b>Gabriel Alves</b><span>Portfólio · 2026</span></span>
+    </a>
+    <div class="nav-links">
+      <span class="nav-pill" aria-hidden="true"></span>
+      <a class="nav-link" href="index.html">Início</a>
+      <a class="nav-link" href="sobre.html">Sobre</a>
+      <a class="nav-link" href="habilidades.html">Habilidades</a>
+      <a class="nav-link" href="projetos.html">Projetos</a>
+      <a class="nav-link" href="trajetoria.html">Trajetória</a>
+      <a class="nav-link" href="contato.html">Contato</a>
+    </div>
+    <a class="btn btn-primary btn-sm" href="contato.html">Vamos conversar <span class="ico ico-n">↗</span></a>
+  </nav>
+</header>
+
+<div class="page">
+  <div class="page-shell">
+
+    <aside class="side">
+      <a class="back-link" href="index.html"><span class="ico">←</span> Voltar ao início</a>
+      <span class="side-label">Nesta página</span>
+      <nav class="side-nav" aria-label="Seções desta página">
+        <a href="#galeria"><span>01</span> Galeria</a>
+        <a href="#destaque"><span>02</span> Em destaque</a>
+        <a href="#processo"><span>03</span> Processo</a>
+        <a href="#proximo"><span>04</span> Próximos passos</a>
+      </nav>
+    </aside>
+
+    <main id="conteudo">
+      <header class="page-hero">
+        <p class="eyebrow">Gabriel Alves dos Reis / Projetos</p>
+        <h1 class="page-title rv in">Trabalhos <em>acadêmicos</em>.</h1>
+        <p class="page-lead rv in" style="--d:140ms">
+          Feitos durante o curso técnico. Cada card abre uma ficha completa com o problema, a solução,
+          o que eu fiz e o que aprendi. Os códigos serão publicados no GitHub em breve.
+        </p>
+        <div class="hero-meta rv-s in" style="--d:210ms">
+          <span class="chip" style="--dot:#7950f2"><i></i> C#</span>
+          <span class="chip" style="--dot:#e34c26"><i></i> HTML</span>
+          <span class="chip" style="--dot:#1572b6"><i></i> CSS</span>
+          <span class="chip" style="--dot:#00758f"><i></i> MySQL</span>
+          <span class="chip" style="--dot:#34c759"><i></i> Hardware</span>
+        </div>
+      </header>
+
+      <!-- 01 GALERIA -->
+      <section class="sec" id="galeria" aria-labelledby="h-gal">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">01 — Galeria</span>
+            <h2 class="sec-title" id="h-gal">Filtre por <em>tecnologia</em></h2>
+          </div>
+          <div class="seg" data-seg="projs">
+            <span class="seg-thumb" aria-hidden="true"></span>
+            <button class="seg-btn" data-cat="todos" aria-selected="true">Todos</button>
+            <button class="seg-btn" data-cat="csharp" aria-selected="false">C#</button>
+            <button class="seg-btn" data-cat="web" aria-selected="false">Web</button>
+            <button class="seg-btn" data-cat="banco" aria-selected="false">Banco</button>
+            <button class="seg-btn" data-cat="hardware" aria-selected="false">Hardware</button>
+          </div>
+        </div>
+
+        <div class="proj-grid">
+
+          <article class="card proj rv" data-cat-group="projs" data-cat="csharp" data-project-card>
+            <div class="proj-visual" style="--glow:linear-gradient(150deg,#7950f2,#0267ff)">
+              <span class="proj-glyph">C#</span>
+            </div>
+            <div class="proj-body">
+              <div class="tags"><span class="tag">C#</span><span class="tag">Lógica</span><span class="tag">Console</span></div>
+              <h3>Exercícios e aplicações em C#</h3>
+              <p>Resolução de problemas com variáveis, condicionais, laços de repetição, vetores e matrizes — do enunciado ao programa funcionando.</p>
+              <div class="proj-foot">
+                <span class="proj-no">01 / 06</span>
+                <button class="link-btn" data-project>Ver detalhes <span class="ico ico-e">→</span></button>
+              </div>
+            </div>
+            <script type="application/json">{
+              "title": "Exercícios e aplicações em C#",
+              "tags": ["C#", "Lógica", "Console"],
+              "desc": "Uma coleção de problemas resolvidos em console, criada para treinar lógica de programação até a solução funcionar de ponta a ponta. Cada exercício começou em papel: entender a entrada, o que precisa sair e quais passos ligam as duas coisas.",
+              "role": "Desenvolvimento individual",
+              "year": "2024 – 2026",
+              "stack": ["Estruturas condicionais (if/else, switch)", "Laços de repetição (for, while, do-while)", "Vetores e matrizes", "Funções e modularização", "Tratamento de entrada inválida"],
+              "points": ["Mais de 30 problemas resolvidos durante as aulas", "Refatoração dos primeiros exercícios para deixar o código mais legível", "Foco em comentar o raciocínio, não só o resultado"],
+              "href": "https://github.com/SEU-USUARIO"
+            }</script>
+          </article>
+
+          <article class="card proj rv" style="--d:80ms" data-cat-group="projs" data-cat="web" data-project-card>
+            <div class="proj-visual" style="--glow:linear-gradient(150deg,#ff9500,#ff375f)">
+              <span class="proj-glyph">HTML5</span>
+            </div>
+            <div class="proj-body">
+              <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Responsivo</span></div>
+              <h3>Páginas web do curso</h3>
+              <p>Estruturação de páginas com HTML semântico, aplicação de estilos em CSS e organização dos elementos visuais em atividades práticas.</p>
+              <div class="proj-foot">
+                <span class="proj-no">02 / 06</span>
+                <button class="link-btn" data-project>Ver detalhes <span class="ico ico-e">→</span></button>
+              </div>
+            </div>
+            <script type="application/json">{
+              "title": "Páginas web do curso",
+              "tags": ["HTML5", "CSS3", "Responsivo"],
+              "desc": "Série de páginas construídas do zero nas aulas de desenvolvimento web, cobrindo desde a marcação semântica até a organização visual dos componentes. Foi onde entendi que layout não é enfeite: é hierarquia de informação.",
+              "role": "Desenvolvimento individual",
+              "year": "2025",
+              "stack": ["HTML semântico (header, main, section, footer)", "Flexbox e CSS Grid", "Media queries para telas pequenas", "Formulários e validação básica", "Organização de arquivos de estilo"],
+              "points": ["Páginas testadas em celular, tablet e desktop", "Uso de unidades relativas para evitar quebra de layout", "Aplicação de contraste e foco para acessibilidade"]
+            }</script>
+          </article>
+
+          <article class="card proj rv" style="--d:160ms" data-cat-group="projs" data-cat="banco" data-project-card>
+            <div class="proj-visual" style="--glow:linear-gradient(150deg,#00758f,#0267ff)">
+              <span class="proj-glyph">SQL</span>
+            </div>
+            <div class="proj-body">
+              <div class="tags"><span class="tag">MySQL</span><span class="tag">Modelagem</span><span class="tag">Consultas</span></div>
+              <h3>Banco de dados na prática</h3>
+              <p>Criação e manipulação de bancos de dados em atividades acadêmicas, com exercícios de consulta e organização das informações.</p>
+              <div class="proj-foot">
+                <span class="proj-no">03 / 06</span>
+                <button class="link-btn" data-project>Ver detalhes <span class="ico ico-e">→</span></button>
+              </div>
+            </div>
+            <script type="application/json">{
+              "title": "Banco de dados na prática",
+              "tags": ["MySQL", "Modelagem", "Consultas"],
+              "desc": "Projeto acadêmico de modelagem de um banco simples, com criação de tabelas, relacionamento entre registros e consultas que respondem perguntas de negócio.",
+              "role": "Modelagem e consultas",
+              "year": "2025",
+              "stack": ["Criação de tabelas e chaves", "INSERT, SELECT, UPDATE, DELETE", "JOIN entre tabelas", "Filtros com WHERE, GROUP BY e ORDER BY", "MySQL Workbench"],
+              "points": ["Diagrama simplificado antes de escrever o SQL", "Consultas compostas para relatórios", "Prática de integridade referencial"]
+            }</script>
+          </article>
+
+          <article class="card proj rv" style="--d:240ms" data-cat-group="projs" data-cat="hardware" data-project-card>
+            <div class="proj-visual" style="--glow:linear-gradient(150deg,#34c759,#30b0c7)">
+              <span class="proj-glyph">PC</span>
+            </div>
+            <div class="proj-body">
+              <div class="tags"><span class="tag">Hardware</span><span class="tag">Montagem</span><span class="tag">Configuração</span></div>
+              <h3>Montagem e configuração</h3>
+              <p>Montagem e configuração de computadores nas aulas práticas, do encaixe das peças à inicialização do sistema operacional.</p>
+              <div class="proj-foot">
+                <span class="proj-no">04 / 06</span>
+                <button class="link-btn" data-project>Ver detalhes <span class="ico ico-e">→</span></button>
+              </div>
+            </div>
+            <script type="application/json">{
+              "title": "Montagem e configuração de computadores",
+              "tags": ["Hardware", "Montagem", "Configuração"],
+              "desc": "Prática completa de montagem: escolher os componentes compatíveis, montar o gabinete, cabear corretamente, instalar o sistema e conferir se tudo ficou estável.",
+              "role": "Execução prática em laboratório",
+              "year": "2025",
+              "stack": ["Seleção e compatibilidade de componentes", "Montagem física e organização de cabos", "Instalação de sistema operacional", "Driver e atualização de firmware", "Diagnóstico de falha na inicialização"],
+              "points": ["Montagens completas realizadas em aula", "Diagnóstico de peças com defeito em máquina de colega", "Checklist próprio para não esquecer passo nenhum"]
+            }</script>
+          </article>
+
+          <article class="card proj rv" data-cat-group="projs" data-cat="csharp" data-project-card>
+            <div class="proj-visual" style="--glow:linear-gradient(150deg,#9933ff,#ff2d55)">
+              <span class="proj-glyph">⚙️</span>
+            </div>
+            <div class="proj-body">
+              <div class="tags"><span class="tag">C#</span><span class="tag">Lógica</span><span class="tag">Vetores</span></div>
+              <h3>Soluções para problemas propostos</h3>
+              <p>Respostas completas para desafios da turma: entrada de dados, processamento e saída formatada, com casos de teste.</p>
+              <div class="proj-foot">
+                <span class="proj-no">05 / 06</span>
+                <button class="link-btn" data-project>Ver detalhes <span class="ico ico-e">→</span></button>
+              </div>
+            </div>
+            <script type="application/json">{
+              "title": "Soluções para problemas propostos",
+              "tags": ["C#", "Lógica", "Vetores"],
+              "desc": "Conjunto de desafios propostos pela equipe docente, resolvidos em C#. O ponto principal foi montar casos de teste antes de codar e conferir o programa contra cada um.",
+              "role": "Desenvolvimento individual",
+              "year": "2025 – 2026",
+              "stack": ["Leitura e validação de entrada", "Ordenação e busca em vetores", "Matrizes e contagem", "Funções reutilizáveis", "Casos de teste documentados"],
+              "points": ["Documentação dos casos de teste em cada exercício", "Comparação da complexidade entre duas abordagens", "Código reescrito depois da aula para enxugar repetição"]
+            }</script>
+          </article>
+
+          <article class="card proj rv" style="--d:80ms" data-cat-group="projs" data-cat="hardware" data-project-card>
+            <div class="proj-visual" style="--glow:linear-gradient(150deg,#0267ff,#30b0c7)">
+              <span class="proj-glyph">🌐</span>
+            </div>
+            <div class="proj-body">
+              <div class="tags"><span class="tag">Redes</span><span class="tag">Linux</span><span class="tag">Configuração</span></div>
+              <h3>Redes e configuração de Linux</h3>
+              <p>Atividades de rede e de sistema: endereçamento, simulação de topologia e configuração inicial de máquina Linux.</p>
+              <div class="proj-foot">
+                <span class="proj-no">06 / 06</span>
+                <button class="link-btn" data-project>Ver detalhes <span class="ico ico-e">→</span></button>
+              </div>
+            </div>
+            <script type="application/json">{
+              "title": "Redes e configuração de Linux",
+              "tags": ["Redes", "Linux", "Configuração"],
+              "desc": "Trilha de atividades cobrindo modelagem de rede em simulador e a configuração de um computador com Linux do zero, incluindo rede, usuários e permissões.",
+              "role": "Atividades individuais e em dupla",
+              "year": "2025 – 2026",
+              "stack": ["Cisco Packet Tracer", "Endereçamento IP e máscara", "Terminal e permissões (sudo, chmod)", "Instalação de pacotes", "Configuração de rede e usuário"],
+              "points": ["Topologia simulada e testada antes da implementação", "Máquina Linux configurada e documentada", "Registro dos comandos usados em um guia próprio"]
+            }</script>
+          </article>
+
+        </div>
+
+        <div class="empty" data-empty="projs">Nenhum projeto nessa categoria.</div>
+      </section>
+
+      <!-- 02 DESTAQUE -->
+      <section class="sec" id="destaque" aria-labelledby="h-des">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">02 — Em destaque</span>
+            <h2 class="sec-title" id="h-des">O que mais me <em>ensinou</em></h2>
+          </div>
+        </div>
+        <div class="grid g3">
+          <article class="card rv">
+            <span class="sec-num">Por que destaque</span>
+            <h3 style="font-size:1.1rem;font-weight:650;margin:9px 0 8px">Montagem de PC</h3>
+            <p style="color:var(--muted);font-size:.92rem;margin:0">Foi o único projeto em que o erro não aparecia em uma mensagem — aparecia como máquina que não ligava. Me ensinou diagnóstico passo a passo.</p>
+          </article>
+          <article class="card rv" style="--d:90ms">
+            <span class="sec-num">Por que destaque</span>
+            <h3 style="font-size:1.1rem;font-weight:650;margin:9px 0 8px">MySQL</h3>
+            <p style="color:var(--muted);font-size:.92rem;margin:0">Foi a primeira vez que vi dados sobreviverem além do programa: a informação continua lá quando o aplicativo fecha.</p>
+          </article>
+          <article class="card rv" style="--d:180ms">
+            <span class="sec-num">Por que destaque</span>
+            <h3 style="font-size:1.1rem;font-weight:650;margin:9px 0 8px">C#</h3>
+            <p style="color:var(--muted);font-size:.92rem;margin:0">A base de tudo: aprendi a separar problema em partes antes de escrever qualquer linha.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 03 PROCESSO -->
+      <section class="sec" id="processo" aria-labelledby="h-pro">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">03 — Processo</span>
+            <h2 class="sec-title" id="h-pro">Como um projeto <em>acontece</em></h2>
+          </div>
+          <p class="sec-note">Mesmo passo a passo, independente da tecnologia.</p>
+        </div>
+        <div class="timeline">
+          <article class="tl rv">
+            <span class="tl-year">Etapa 01</span>
+            <div class="tl-card soft-card"><h3>Entender o problema</h3><p class="tl-org">Leitura & perguntas</p><p>Reescrevo o enunciato com minhas palavras, separo o que é obrigatório do que é extra e anoto a entrada e a saída esperadas.</p></div>
+          </article>
+          <article class="tl rv" style="--d:80ms">
+            <span class="tl-year">Etapa 02</span>
+            <div class="tl-card soft-card"><h3>Desenhar a solução</h3><p class="tl-org">Planejamento</p><p>Fluxograma ou esquema no papel. Para hardware e redes, é o diagrama; para código, é a ordem dos passos.</p></div>
+          </article>
+          <article class="tl rv" style="--d:160ms">
+            <span class="tl-year">Etapa 03</span>
+            <div class="tl-card soft-card"><h3>Implementar em partes</h3><p class="tl-org">Construção</p><p>Começo pelo núcleo e vou testando a cada bloco, em vez de escrever tudo e descobrir o erro só no fim.</p></div>
+          </article>
+          <article class="tl rv" style="--d:240ms">
+            <span class="tl-year">Etapa 04</span>
+            <div class="tl-card soft-card"><h3>Testar e documentar</h3><p class="tl-org">Validação</p><p>Rodo os casos de teste, trato dado inválido e escrevo um README explicando como executar.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 04 PRÓXIMOS PASSOS -->
+      <section class="sec" id="proximo" aria-labelledby="h-prox">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">04 — Próximos passos</span>
+            <h2 class="sec-title" id="h-prox">O que vem <em>em seguida</em></h2>
+          </div>
+        </div>
+        <div class="card rv">
+          <div class="check"><span class="box wip"></span><p><strong>Publicar no GitHub</strong> — repositório com README, instruções de execução e histórico de commits organizado.</p></div>
+          <div class="check"><span class="box wip"></span><p><strong>Interface em JavaScript</strong> — adicionar comportamento às páginas que hoje só usam HTML e CSS.</p></div>
+          <div class="check"><span class="box wip"></span><p><strong>Projeto de equipe</strong> — construir algo com outra pessoa para treinar revisão de código e divisão de tarefa.</p></div>
+          <div class="check" style="border-bottom:0"><span class="box wip"></span><p><strong>Primeiro estágio</strong> — aplicar tudo isso em um projeto real, com prazo e usuário final.</p></div>
+        </div>
+
+        <div class="cta glass rv" style="margin-top:26px">
+          <h2>Tem um desafio <em>para mim?</em></h2>
+          <p>Estou começando e quero muito aplicar o que estudo em algo real. Me conte o problema.</p>
+          <div class="cta-acts">
+            <a class="btn btn-primary btn-lg" href="contato.html">Entrar em contato <span class="ico ico-e">→</span></a>
+            <a class="btn btn-lg" href="sobre.html">Conhecer minha história <span class="ico ico-n">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <span>Gabriel Alves dos Reis · Projetos</span>
+        <span><a href="index.html">Início</a> · <a href="contato.html">Contato</a></span>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<!-- ============ MODAL ============ -->
+<div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-bg"></div>
+  <div class="modal-card">
+    <button class="ico-btn modal-close" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="tags modal-tags"></div>
+    <h3 id="modalTitle" class="modal-title">Projeto</h3>
+    <p class="modal-desc"></p>
+
+    <h5>O que eu fiz</h5>
+    <ul class="modal-stack"></ul>
+
+    <h5>Aprendizados</h5>
+    <ul class="modal-points"></ul>
+
+    <div class="modal-foot">
+      <span class="chip" style="--dot:#0267ff"><i></i> <span class="modal-role">—</span></span>
+      <span class="chip" style="--dot:#9933ff"><i></i> <span class="modal-year">—</span></span>
+      <a class="btn btn-primary btn-sm modal-link" href="#" target="_blank" rel="noopener">Ver no GitHub <span class="ico ico-n">↗</span></a>
+    </div>
+  </div>
+</div>
+
+<div class="dock">
+  <div class="dock-panel" id="dockPanel" aria-hidden="true">
+    <div class="dock-grp">
+      <span class="dock-hd">Páginas</span>
+      <a href="index.html"><span>Início</span><span class="arr">→</span></a>
+      <a href="sobre.html"><span>Sobre mim</span><span class="arr">→</span></a>
+      <a href="habilidades.html"><span>Habilidades</span><span class="arr">→</span></a>
+      <a href="projetos.html"><span>Projetos</span><span class="arr">→</span></a>
+      <a href="trajetoria.html"><span>Trajetória</span><span class="arr">→</span></a>
+      <a href="contato.html"><span>Contato</span><span class="arr">→</span></a>
+    </div>
+    <div class="dock-grp">
+      <span class="dock-hd">Atalhos</span>
+      <div class="dock-row"><span>Reduzir animações</span><button class="switch" data-action="calm" aria-checked="false" aria-label="Reduzir animações"></button></div>
+      <div class="dock-row"><span>gabrie.reis2009@gmail.com</span></div>
+    </div>
+  </div>
+  <button class="dock-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="dockPanel">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

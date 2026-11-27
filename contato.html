@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contato — Gabriel Alves dos Reis</title>
+<meta name="description" content="Entre em contato com Gabriel Alves dos Reis: formulário, e-mail, GitHub e LinkedIn. Disponível para estágios e projetos em Belo Horizonte.">
+<meta name="theme-color" content="#ecebef">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230267ff'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle'%3EGA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="wallpaper" aria-hidden="true"></div>
+<div class="frost" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"></div>
+<div class="veil" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<header class="topbar">
+  <nav class="nav" aria-label="Navegação principal">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">GA</span>
+      <span class="brand-txt"><b>Gabriel Alves</b><span>Portfólio · 2026</span></span>
+    </a>
+    <div class="nav-links">
+      <span class="nav-pill" aria-hidden="true"></span>
+      <a class="nav-link" href="index.html">Início</a>
+      <a class="nav-link" href="sobre.html">Sobre</a>
+      <a class="nav-link" href="habilidades.html">Habilidades</a>
+      <a class="nav-link" href="projetos.html">Projetos</a>
+      <a class="nav-link" href="trajetoria.html">Trajetória</a>
+      <a class="nav-link" href="contato.html">Contato</a>
+    </div>
+    <a class="btn btn-primary btn-sm" href="contato.html">Vamos conversar <span class="ico ico-n">↗</span></a>
+  </nav>
+</header>
+
+<div class="page">
+  <div class="page-shell">
+
+    <aside class="side">
+      <a class="back-link" href="index.html"><span class="ico">←</span> Voltar ao início</a>
+      <span class="side-label">Nesta página</span>
+      <nav class="side-nav" aria-label="Seções desta página">
+        <a href="#mensagens"><span>01</span> Enviar mensagem</a>
+        <a href="#direto"><span>02</span> Contato direto</a>
+        <a href="#redes"><span>03</span> Redes</a>
+        <a href="#faq"><span>04</span> Perguntas</a>
+        <a href="#disponibilidade"><span>05</span> Disponibilidade</a>
+      </nav>
+    </aside>
+
+    <main id="conteudo">
+      <header class="page-hero">
+        <p class="eyebrow">Gabriel Alves dos Reis / Contato</p>
+        <h1 class="page-title rv in">Vamos <em>conversar?</em></h1>
+        <p class="page-lead rv in" style="--d:140ms">
+          Se você tem uma vaga de estágio, um projeto, uma dúvida ou só quer trocar uma ideia sobre
+          tecnologia — me escreve. Respondo rápido.
+        </p>
+        <div class="hero-meta rv-s in" style="--d:210ms">
+          <span class="chip" style="--dot:#34c759"><i></i> Respondo em até 24h</span>
+          <span class="chip" style="--dot:#0267ff"><i></i> Presencial em BH ou remoto</span>
+          <span class="chip" style="--dot:#9933ff"><i></i> Turno da tarde disponível</span>
+        </div>
+      </header>
+
+      <!-- 01 FORMULÁRIO -->
+      <section class="sec" id="mensagens" aria-labelledby="h-msg">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">01 — Enviar mensagem</span>
+            <h2 class="sec-title" id="h-msg">Me conte <em>o que você precisa</em></h2>
+          </div>
+          <p class="sec-note">Preenche os campos e eu recebo direto no meu e-mail.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="card form-card rv" data-form novalidate>
+            <div class="field">
+              <input type="text" id="nome" name="nome" required autocomplete="name" placeholder=" ">
+              <label for="nome">Seu nome</label>
+              <span class="msg">Como posso te chamar?</span>
+            </div>
+            <div class="field">
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder=" ">
+              <label for="email">Seu e-mail</label>
+              <span class="msg">Digite um e-mail válido (ex.: ana@empresa.com)</span>
+            </div>
+            <div class="field">
+              <select id="assunto" name="assunto" required>
+                <option value="" selected disabled></option>
+                <option>Vaga de estágio</option>
+                <option>Projeto / freela</option>
+                <option>Dúvida técnica</option>
+                <option>Parceria</option>
+                <option>Só uma mensagem</option>
+              </select>
+              <label for="assunto">Assunto</label>
+              <span class="msg">Escolha um assunto</span>
+            </div>
+            <div class="field">
+              <textarea id="mensagem" name="mensagem" required placeholder=" "></textarea>
+              <label for="mensagem">Sua mensagem</label>
+              <span class="msg">Escreve ao menos algumas palavras 🙂</span>
+            </div>
+
+            <button class="btn btn-primary btn-block btn-lg" type="submit">
+              <span data-label>Enviar mensagem</span> <span class="ico ico-e">→</span>
+            </button>
+
+            <div class="form-ok" role="status">
+              <span class="tick">✓</span>
+              <span>Pronto! Sua mensagem foi preparada. Se o aplicativo de e-mail não abrir, escreva direto para <b>gabrie.reis2009@gmail.com</b>.</span>
+            </div>
+          </form>
+
+          <div class="card rv" style="--d:120ms">
+            <div class="avail"><span class="pulse" aria-hidden="true"></span> Aberto a oportunidades de estágio em TI</div>
+
+            <div class="copy-row">
+              <span class="mail">gabrie.reis2009@gmail.com</span>
+              <button class="btn btn-sm" data-copy="gabrie.reis2009@gmail.com"><span data-label>Copiar</span></button>
+            </div>
+
+            <div class="social-list">
+              <a href="mailto:gabrie.reis2009@gmail.com">
+                <span class="sl-ico" style="--gl:linear-gradient(150deg,#ff9500,#ff375f)">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="4.5" width="19" height="15" rx="3"/><path d="m3.5 7 8.5 6 8.5-6"/></svg>
+                </span>
+                <span class="sl-txt"><b>E-mail</b><span>gabrie.reis2009@gmail.com</span></span>
+                <span class="sl-go">↗</span>
+              </a>
+              <a href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">
+                <span class="sl-ico" style="--gl:linear-gradient(150deg,#3a3a3c,#1c1c1e)">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.35-1.3-1.71-1.3-1.71-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.78 2.71 1.27 3.37.97.1-.75.4-1.27.73-1.56-2.56-.3-5.25-1.28-5.25-5.7 0-1.26.45-2.3 1.19-3.1-.12-.3-.52-1.48.11-3.08 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.6.23 2.79.11 3.08.74.8 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.07.78 2.16v3.2c0 .31.2.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"/></svg>
+                </span>
+                <span class="sl-txt"><b>GitHub</b><span>projetos e código</span></span>
+                <span class="sl-go">↗</span>
+              </a>
+              <a href="https://www.linkedin.com/in/SEU-USUARIO" target="_blank" rel="noopener">
+                <span class="sl-ico" style="--gl:linear-gradient(150deg,#2b82ff,#0053d6)">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.64h.05c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.29-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21h-4V9Z"/></svg>
+                </span>
+                <span class="sl-txt"><b>LinkedIn</b><span>perfil profissional</span></span>
+                <span class="sl-go">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 DIRETO -->
+      <section class="sec" id="direto" aria-labelledby="h-dir">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">02 — Contato direto</span>
+            <h2 class="sec-title" id="h-dir">Do seu jeito <em>preferido</em></h2>
+          </div>
+        </div>
+        <div class="grid g3">
+          <article class="soft-card rv">
+            <span class="sec-num">Mais rápido</span>
+            <h3 style="font-size:1.05rem;font-weight:650;margin:8px 0 6px">E-mail</h3>
+            <p style="color:var(--muted);font-size:.9rem;margin:0 0 12px">Para vagas e propostas. Respondo em até 24 horas úteis.</p>
+            <a class="link-btn" href="mailto:gabrie.reis2009@gmail.com">Escrever <span class="ico ico-e">→</span></a>
+          </article>
+          <article class="soft-card rv" style="--d:90ms">
+            <span class="sec-num">Conversa</span>
+            <h3 style="font-size:1.05rem;font-weight:650;margin:8px 0 6px">WhatsApp</h3>
+            <p style="color:var(--muted);font-size:.9rem;margin:0 0 12px">Melhor para alinhar horário de entrevista ou uma dúvida rápida.</p>
+            <a class="link-btn" href="https://wa.me/5531900000000" target="_blank" rel="noopener">Chamar <span class="ico ico-n">↗</span></a>
+          </article>
+          <article class="soft-card rv" style="--d:180ms">
+            <span class="sec-num">Presencial</span>
+            <h3 style="font-size:1.05rem;font-weight:650;margin:8px 0 6px">Belo Horizonte</h3>
+            <p style="color:var(--muted);font-size:.9rem;margin:0 0 12px">Disponível para reuniões na região metropolitana e para modelos híbridos.</p>
+            <a class="link-btn" href="#disponibilidade">Ver disponibilidade <span class="ico ico-s">↓</span></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- 03 REDES -->
+      <section class="sec" id="redes" aria-labelledby="h-red">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">03 — Redes</span>
+            <h2 class="sec-title" id="h-red">Onde <em>me achar</em></h2>
+          </div>
+        </div>
+        <div class="marquee rv" style="border-radius:999px;border:1px solid rgba(255,255,255,.7);background:rgba(255,255,255,.5);padding:16px 0">
+          <div class="mq-track">
+            <span class="mq-item" style="--dot:#34c759"><i></i> Disponível para estágio</span>
+            <span class="mq-item" style="--dot:#0267ff"><i></i> Belo Horizonte · MG</span>
+            <span class="mq-item" style="--dot:#9933ff"><i></i> Remoto ou presencial</span>
+            <span class="mq-item" style="--dot:#ff9500"><i></i> Turno da tarde</span>
+            <span class="mq-item" style="--dot:#30b0c7"><i></i> Inglês intermediário</span>
+            <span class="mq-item" style="--dot:#34c759"><i></i> Disponível para estágio</span>
+            <span class="mq-item" style="--dot:#0267ff"><i></i> Belo Horizonte · MG</span>
+            <span class="mq-item" style="--dot:#9933ff"><i></i> Remoto ou presencial</span>
+            <span class="mq-item" style="--dot:#ff9500"><i></i> Turno da tarde</span>
+            <span class="mq-item" style="--dot:#30b0c7"><i></i> Inglês intermediário</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 FAQ -->
+      <section class="sec" id="faq" aria-labelledby="h-faq">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">04 — Perguntas</span>
+            <h2 class="sec-title" id="h-faq">Antes de <em>escrever</em></h2>
+          </div>
+        </div>
+        <div class="acc rv">
+          <div class="acc-item">
+            <button class="acc-q">Você está aceitando estágio agora? <span class="plus" aria-hidden="true"></span></button>
+            <div class="acc-a"><p>Sim. Estou em busca do meu primeiro estágio em TI desde já, presencial em Belo Horizonte ou remoto, no turno da tarde ou em horário flexível.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q">Quais tecnologias você já usa? <span class="plus" aria-hidden="true"></span></button>
+            <div class="acc-a"><p>C# para lógica e aplicações de console, HTML e CSS para web, MySQL para banco de dados, Linux e redes para sistema, além de prática de hardware. Estou estudando JavaScript e Git/GitHub. Detalhes na <a href="habilidades.html" style="color:var(--blue);font-weight:600">página de habilidades</a>.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q">Faz projetos fora da escola? <span class="plus" aria-hidden="true"></span></button>
+            <div class="acc-a"><p>Fazo. Além dos projetos do curso, ajudo colegas e familiares com montagem e manutenção de computadores, e estou publicando meus estudos no GitHub.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q">Como funciona o processo seletivo? <span class="plus" aria-hidden="true"></span></button>
+            <div class="acc-a"><p>Me mande a descrição da vaga pelo formulário ou e-mail. Eu respondo com meu currículo e disponibilidade, e estou disponível para entrevista presencial em BH ou por videochamada.</p></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-q">Quanto tempo você leva para responder? <span class="plus" aria-hidden="true"></span></button>
+            <div class="acc-a"><p>Normalmente em até 24 horas úteis. Se for urgente, chame no WhatsApp — está no bloco de contato direto logo acima.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 05 DISPONIBILIDADE -->
+      <section class="sec" id="disponibilidade" aria-labelledby="h-disp">
+        <div class="sec-head rv">
+          <div>
+            <span class="sec-num">05 — Disponibilidade</span>
+            <h2 class="sec-title" id="h-disp">Minha <em>agenda</em></h2>
+          </div>
+        </div>
+        <div class="rows rv">
+          <div class="row"><span class="row-k">Seg a Sex</span><span class="row-v"><b>Tarde (13h — 18h)</b> · aulas do técnico no turno da manhã</span><span class="row-a">Livre</span></div>
+          <div class="row"><span class="row-k">Seg a Sex</span><span class="row-v"><b>Manhã</b> · horário de aula na COTEMIG</span><span class="row-a">Ocupado</span></div>
+          <div class="row"><span class="row-k">Sábado</span><span class="row-v"><b>Manhã</b> · disponível para reuniões e entrevistas</span><span class="row-a">Livre</span></div>
+          <div class="row"><span class="row-k">Modelo</span><span class="row-v"><b>Presencial em BH</b> ou <b>remoto</b> — os dois funcionam</span><span class="row-a">Flexível</span></div>
+        </div>
+
+        <div class="cta glass rv" style="margin-top:26px">
+          <h2>Tem algo <em>para mim?</em></h2>
+          <p>Me conta sobre a vaga, o projeto ou a ideia. Eu respondo com disponibilidade e com vontade.</p>
+          <div class="cta-acts">
+            <a class="btn btn-primary btn-lg" href="#mensagens">Enviar mensagem <span class="ico ico-e">↑</span></a>
+            <a class="btn btn-lg" href="projetos.html">Ver projetos <span class="ico ico-n">↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="foot">
+        <span>Gabriel Alves dos Reis · Contato</span>
+        <span><a href="index.html">Início</a> · <a href="sobre.html">Sobre</a></span>
+      </footer>
+    </main>
+  </div>
+</div>
+
+<div class="dock">
+  <div class="dock-panel" id="dockPanel" aria-hidden="true">
+    <div class="dock-grp">
+      <span class="dock-hd">Páginas</span>
+      <a href="index.html"><span>Início</span><span class="arr">→</span></a>
+      <a href="sobre.html"><span>Sobre mim</span><span class="arr">→</span></a>
+      <a href="habilidades.html"><span>Habilidades</span><span class="arr">→</span></a>
+      <a href="projetos.html"><span>Projetos</span><span class="arr">→</span></a>
+      <a href="trajetoria.html"><span>Trajetória</span><span class="arr">→</span></a>
+      <a href="contato.html"><span>Contato</span><span class="arr">→</span></a>
+    </div>
+    <div class="dock-grp">
+      <span class="dock-hd">Atalhos</span>
+      <div class="dock-row"><span>Reduzir animações</span><button class="switch" data-action="calm" aria-checked="false" aria-label="Reduzir animações"></button></div>
+      <div class="dock-row"><span>gabrie.reis2009@gmail.com</span></div>
+    </div>
+  </div>
+  <button class="dock-btn" aria-label="Abrir menu" aria-expanded="false" aria-controls="dockPanel">
+    <span></span><span></span><span></span>
+  </button>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
